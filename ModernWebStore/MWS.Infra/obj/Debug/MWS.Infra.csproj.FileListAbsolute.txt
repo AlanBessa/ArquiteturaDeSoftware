@@ -1,0 +1,14 @@
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\MWS.Infra.dll.config
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\MWS.Infra.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\MWS.Infra.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\EntityFramework.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\EntityFramework.SqlServer.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\MWS.Domain.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\MWS.SharedKernel.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\MWS.Domain.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\EntityFramework.xml
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\EntityFramework.SqlServer.xml
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\bin\Debug\MWS.SharedKernel.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\obj\Debug\MWS.Infra.csprojResolveAssemblyReference.cache
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\obj\Debug\MWS.Infra.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Infra\obj\Debug\MWS.Infra.pdb

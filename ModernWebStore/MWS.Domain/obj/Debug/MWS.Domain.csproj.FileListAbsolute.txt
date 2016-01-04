@@ -1,0 +1,7 @@
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Domain\bin\Debug\MWS.Domain.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Domain\bin\Debug\MWS.Domain.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Domain\bin\Debug\MWS.SharedKernel.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Domain\bin\Debug\MWS.SharedKernel.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Domain\obj\Debug\MWS.Domain.csprojResolveAssemblyReference.cache
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Domain\obj\Debug\MWS.Domain.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.Domain\obj\Debug\MWS.Domain.pdb

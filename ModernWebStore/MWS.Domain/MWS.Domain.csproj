@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B9982CA-71DB-4511-90AC-38EE63F5BDD2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MWS.Domain</RootNamespace>
+    <AssemblyName>MWS.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\CategoryCommands\CreateCategoryCommand.cs" />
+    <Compile Include="Commands\CategoryCommands\DeleteCategoryCommand.cs" />
+    <Compile Include="Commands\CategoryCommands\EditCategoryCommand.cs" />
+    <Compile Include="Commands\OrderCommands\CreateOrderCommand.cs" />
+    <Compile Include="Commands\OrderCommands\CreateOrderItemCommand.cs" />
+    <Compile Include="Commands\ProductCommands\CreateProductCommand.cs" />
+    <Compile Include="Commands\ProductCommands\UpdateProductInfoCommand.cs" />
+    <Compile Include="Commands\UserCommands\RegisterUserCommand.cs" />
+    <Compile Include="Entidades\Category.cs" />
+    <Compile Include="Entidades\Order.cs" />
+    <Compile Include="Entidades\OrderItem.cs" />
+    <Compile Include="Entidades\Product.cs" />
+    <Compile Include="Entidades\User.cs" />
+    <Compile Include="Enums\EOrderStatus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ICategoryRepository.cs" />
+    <Compile Include="Repositories\IOrderRepository.cs" />
+    <Compile Include="Repositories\IProductRepository.cs" />
+    <Compile Include="Repositories\IUserRepository.cs" />
+    <Compile Include="Scopes\CategoryScopes.cs" />
+    <Compile Include="Scopes\OrderItemScopes.cs" />
+    <Compile Include="Scopes\OrderScopes.cs" />
+    <Compile Include="Scopes\ProductScopes.cs" />
+    <Compile Include="Scopes\UserScopes.cs" />
+    <Compile Include="Services\ICategoryApplicationService.cs" />
+    <Compile Include="Services\IOrderApplicationService.cs" />
+    <Compile Include="Services\IProductApplicationService.cs" />
+    <Compile Include="Services\IUserApplicationService.cs" />
+    <Compile Include="Specs\OrderSpecs.cs" />
+    <Compile Include="Specs\ProductSpecs.cs" />
+    <Compile Include="Specs\UserSpecs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MWS.SharedKernel\MWS.SharedKernel.csproj">
+      <Project>{50f95530-b6a2-4381-bc38-433d57058bb3}</Project>
+      <Name>MWS.SharedKernel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

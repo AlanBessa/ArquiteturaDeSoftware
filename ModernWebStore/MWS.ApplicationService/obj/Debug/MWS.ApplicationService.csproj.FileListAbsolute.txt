@@ -1,0 +1,13 @@
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.ApplicationService.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.ApplicationService.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.Domain.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.Infra.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.SharedKernel.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\EntityFramework.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.Domain.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.Infra.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\MWS.SharedKernel.pdb
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\bin\Debug\EntityFramework.xml
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\obj\Debug\MWS.ApplicationService.csprojResolveAssemblyReference.cache
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\obj\Debug\MWS.ApplicationService.dll
+D:\Estudo\WebApi_AngularJS\ModernWebStore\MWS.ApplicationService\obj\Debug\MWS.ApplicationService.pdb
