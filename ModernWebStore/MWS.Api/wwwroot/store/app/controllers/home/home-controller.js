@@ -19,7 +19,7 @@
         };
 
         function getProducts() {
-            ProductFactory.list()
+            ProductFactory.get()
                 .success(success)
                 .catch(fail);
 

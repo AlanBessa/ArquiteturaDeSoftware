@@ -4,7 +4,7 @@
 
     CartCtrl.$inject = ['$rootScope', '$scope'];
 
-    function CartCtrl($rootScope, $$scope) {
+    function CartCtrl($rootScope, $scope) {
         var vm = this;
         vm.items = [];
         vm.total = 0;

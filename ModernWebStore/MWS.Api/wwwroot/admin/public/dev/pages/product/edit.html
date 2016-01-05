@@ -12,7 +12,7 @@
 <div class="form-group">
     <label>Categoria</label>
     <select ng-model="vm.product.category" class="form-control">
-        <option value="{{category.id}}" ng-repeat="category in categories">{{category.title}}</option>
+        <option value="{{category.id}}" ng-repeat="category in vm.categories">{{category.title}}</option>
     </select>
 </div>
 
@@ -28,7 +28,7 @@
 <div class="form-group">
     <label>Preço</label>
     <input required
-           ng-model="vm.product.prive"
+           ng-model="vm.product.price"
            type="number"
            class="form-control"
            value="" />

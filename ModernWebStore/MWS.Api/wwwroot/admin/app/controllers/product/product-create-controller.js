@@ -7,7 +7,7 @@
     function ProductCreateCtrl($scope, $location, ProductFactory, CategoryFactory) {
         var vm = this;
         vm.categories = [];
-        vm.products = {
+        vm.product = {
             title: '',
             category: 0,
             description: '',
@@ -53,7 +53,7 @@
 
             function success(response) {
                 toastr.success('Produto <strong>' + response.title + '</strong> cadastrado com sucesso', 'Produto Cadastrado');
-                $location.path('/product');
+                $location.path('/products');
             }
 
             function fail(error)
